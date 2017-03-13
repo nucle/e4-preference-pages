@@ -1,0 +1,17 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>at.nucle.e4.plugin.preferences</groupId>
+    <artifactId>at.nucle.e4.plugin.preferences.releng</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>at.nucle.e4.plugin.preferences</groupId>
+        <artifactId>at.nucle.e4.plugin.preferences.root</artifactId>
+        <version>0.1.0-SNAPSHOT</version>
+    </parent>
+
+    <modules>
+        <module>at.nucle.e4.plugin.preferences.update</module>
+    </modules>
+</project>

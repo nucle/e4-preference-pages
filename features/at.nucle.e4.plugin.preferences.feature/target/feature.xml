@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="at.nucle.e4.plugin.preferences.feature"
+      label="Feature"
+      version="0.1.0.201703131551"
+      provider-name="nucle">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="at.nucle.e4.plugin.preferences.core"
+         download-size="8"
+         install-size="12"
+         version="0.1.0.201703131551"
+         unpack="false"/>
+
+   <plugin
+         id="at.nucle.e4.plugin.preferences.core.api"
+         download-size="3"
+         install-size="1"
+         version="0.1.0.201703131551"
+         unpack="false"/>
+
+</feature>

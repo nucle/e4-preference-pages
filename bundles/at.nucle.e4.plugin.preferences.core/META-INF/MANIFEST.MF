@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Preference Pages Core
+Bundle-SymbolicName: at.nucle.e4.plugin.preferences.core;singleton:=true
+Bundle-Version: 0.1.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Service-Component: OSGI-INF/service.xml
+Import-Package: at.nucle.e4.plugin.preferences.core.api,
+ org.eclipse.core.runtime;version="3.5.0"
+Require-Bundle: org.eclipse.e4.core.di,
+ org.eclipse.e4.core.contexts,
+ org.eclipse.e4.ui.model.workbench,
+ org.eclipse.jface,
+ javax.inject
+Bundle-ActivationPolicy: lazy

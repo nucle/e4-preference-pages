@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='201703131551.e4preferences' version='1.0.0.01-cDQr107735G39595CC5'>
+    <properties size='2'>
+      <property name='org.eclipse.equinox.p2.name' value='e4preferences'/>
+      <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='201703131551.e4preferences' version='1.0.0.01-cDQr107735G39595CC5'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='at.nucle.e4.plugin.preferences.feature.feature.group' range='[0.1.0.201703131551,0.1.0.201703131551]'/>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+  </unit>
+</units>
