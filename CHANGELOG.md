@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.2.1] - 2017-03-13
+- Update README
+- Update Version
+
 ## [0.2.0] - 2017-03-13
 
 ### Added 

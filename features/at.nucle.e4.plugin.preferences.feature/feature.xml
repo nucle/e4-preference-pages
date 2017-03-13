@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="at.nucle.e4.plugin.preferences.feature"
-      label="Feature"
-      version="0.1.0.qualifier"
+      label="E4 Preference Pages"
+      version="0.2.1.qualifier"
       provider-name="nucle">
 
    <description url="http://www.example.com/description">

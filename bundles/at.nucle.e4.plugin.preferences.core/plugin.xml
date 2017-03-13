@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?eclipse version="3.4"?>
 <plugin>
-   <extension-point id="at.nucle.e4.plugin.preferences" name="preference_pages" schema="schema/at.nucle.e4.plugin.preferences.exsd"/>
-   <extension-point id="at.nucle.e4.plugin.preference.scope" name="Preference Scop" schema="schema/at.nucle.e4.plugin.preference.scope.exsd"/>
+   <extension-point id="at.nucle.e4.plugin.preferences" name="Preference Page" schema="schema/at.nucle.e4.plugin.preferences.exsd"/>
+   <extension-point id="at.nucle.e4.plugin.preference.scope" name="Preference Scope" schema="schema/at.nucle.e4.plugin.preference.scope.exsd"/>
 
 </plugin>

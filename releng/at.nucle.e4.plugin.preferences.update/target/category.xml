@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/at.nucle.e4.plugin.preferences.feature_0.1.0.qualifier.jar" id="at.nucle.e4.plugin.preferences.feature" version="0.1.0.qualifier">
+   <feature url="features/at.nucle.e4.plugin.preferences.feature_0.2.1.qualifier.jar" id="at.nucle.e4.plugin.preferences.feature" version="0.2.1.qualifier">
       <category name="e4preferences"/>
    </feature>
    <category-def name="e4preferences" label="e4preferences"/>

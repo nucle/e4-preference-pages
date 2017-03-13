@@ -2,8 +2,8 @@ Manifest-Version: 1.0
 Bundle-SymbolicName: at.nucle.e4.plugin.preferences.core.api
 Export-Package: at.nucle.e4.plugin.preferences.core.api
 Bundle-Name: Api
-Bundle-Version: 0.1.0.201703131551
-Require-Bundle: org.eclipse.jface
+Bundle-Version: 0.2.1.201703132207
+Require-Bundle: org.eclipse.jface,org.eclipse.equinox.preferences
 Bundle-ManifestVersion: 2
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 

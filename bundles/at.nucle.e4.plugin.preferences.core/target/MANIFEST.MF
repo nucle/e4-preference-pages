@@ -2,13 +2,13 @@ Manifest-Version: 1.0
 Bundle-SymbolicName: at.nucle.e4.plugin.preferences.core;singleton:=tr
  ue
 Bundle-Name: Preference Pages Core
-Bundle-Version: 0.1.0.201703131551
+Bundle-Version: 0.2.1.201703132207
 Require-Bundle: org.eclipse.e4.core.di,org.eclipse.e4.core.contexts,or
- g.eclipse.e4.ui.model.workbench,org.eclipse.jface,javax.inject
+ g.eclipse.e4.ui.model.workbench,org.eclipse.jface,javax.inject,org.ec
+ lipse.equinox.preferences,org.eclipse.equinox.registry,at.nucle.e4.pl
+ ugin.preferences.core.api,org.eclipse.core.runtime
 Bundle-ManifestVersion: 2
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
-Import-Package: at.nucle.e4.plugin.preferences.core.api,org.eclipse.co
- re.runtime;version="3.5.0"
 Service-Component: OSGI-INF/service.xml
 

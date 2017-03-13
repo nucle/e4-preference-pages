@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <units size='2'>
-  <unit id='at.nucle.e4.plugin.preferences.feature.feature.group' version='0.1.0.201703131551' singleton='false'>
-    <update id='at.nucle.e4.plugin.preferences.feature.feature.group' range='[0.0.0,0.1.0.201703131551)' severity='0'/>
+  <unit id='at.nucle.e4.plugin.preferences.feature.feature.group' version='0.2.1.201703132207' singleton='false'>
+    <update id='at.nucle.e4.plugin.preferences.feature.feature.group' range='[0.0.0,0.2.1.201703132207)' severity='0'/>
     <properties size='8'>
-      <property name='org.eclipse.equinox.p2.name' value='Feature'/>
+      <property name='org.eclipse.equinox.p2.name' value='E4 Preference Pages'/>
       <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
       <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
       <property name='org.eclipse.equinox.p2.provider' value='nucle'/>
       <property name='org.eclipse.equinox.p2.type.group' value='true'/>
       <property name='maven-groupId' value='at.nucle.e4.plugin.preferences'/>
       <property name='maven-artifactId' value='at.nucle.e4.plugin.preferences.feature'/>
-      <property name='maven-version' value='0.1.0-SNAPSHOT'/>
+      <property name='maven-version' value='0.2.1-SNAPSHOT'/>
     </properties>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='at.nucle.e4.plugin.preferences.feature.feature.group' version='0.1.0.201703131551'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='at.nucle.e4.plugin.preferences.feature.feature.group' version='0.2.1.201703132207'/>
     </provides>
     <requires size='3'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='at.nucle.e4.plugin.preferences.core' range='[0.1.0.201703131551,0.1.0.201703131551]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='at.nucle.e4.plugin.preferences.core.api' range='[0.1.0.201703131551,0.1.0.201703131551]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='at.nucle.e4.plugin.preferences.feature.feature.jar' range='[0.1.0.201703131551,0.1.0.201703131551]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='at.nucle.e4.plugin.preferences.core' range='[0.2.1.201703132207,0.2.1.201703132207]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='at.nucle.e4.plugin.preferences.core.api' range='[0.2.1.201703132207,0.2.1.201703132207]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='at.nucle.e4.plugin.preferences.feature.feature.jar' range='[0.2.1.201703132207,0.2.1.201703132207]'>
         <filter>
           (org.eclipse.update.install.features=true)
         </filter>
@@ -34,26 +34,26 @@
       [Enter Copyright Description here.]
     </copyright>
   </unit>
-  <unit id='at.nucle.e4.plugin.preferences.feature.feature.jar' version='0.1.0.201703131551'>
+  <unit id='at.nucle.e4.plugin.preferences.feature.feature.jar' version='0.2.1.201703132207'>
     <properties size='7'>
-      <property name='org.eclipse.equinox.p2.name' value='Feature'/>
+      <property name='org.eclipse.equinox.p2.name' value='E4 Preference Pages'/>
       <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
       <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
       <property name='org.eclipse.equinox.p2.provider' value='nucle'/>
       <property name='maven-groupId' value='at.nucle.e4.plugin.preferences'/>
       <property name='maven-artifactId' value='at.nucle.e4.plugin.preferences.feature'/>
-      <property name='maven-version' value='0.1.0-SNAPSHOT'/>
+      <property name='maven-version' value='0.2.1-SNAPSHOT'/>
     </properties>
     <provides size='3'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='at.nucle.e4.plugin.preferences.feature.feature.jar' version='0.1.0.201703131551'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='at.nucle.e4.plugin.preferences.feature.feature.jar' version='0.2.1.201703132207'/>
       <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
-      <provided namespace='org.eclipse.update.feature' name='at.nucle.e4.plugin.preferences.feature' version='0.1.0.201703131551'/>
+      <provided namespace='org.eclipse.update.feature' name='at.nucle.e4.plugin.preferences.feature' version='0.2.1.201703132207'/>
     </provides>
     <filter>
       (org.eclipse.update.install.features=true)
     </filter>
     <artifacts size='1'>
-      <artifact classifier='org.eclipse.update.feature' id='at.nucle.e4.plugin.preferences.feature' version='0.1.0.201703131551'/>
+      <artifact classifier='org.eclipse.update.feature' id='at.nucle.e4.plugin.preferences.feature' version='0.2.1.201703132207'/>
     </artifacts>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
