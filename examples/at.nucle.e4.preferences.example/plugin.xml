@@ -30,5 +30,12 @@
             title="Sub Page">
       </page>
    </extension>
+   <extension
+         point="at.nucle.e4.plugin.preference.scope">
+      <scope
+            class="at.nucle.e4.preferences.example.preferences.InstanceStoreScope"
+            pugin_id="at.nucle.e4.preferences.example">
+      </scope>
+   </extension>
 
 </plugin>

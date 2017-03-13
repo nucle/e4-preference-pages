@@ -10,22 +10,37 @@
  ******************************************************************************/
 package at.nucle.e4.plugin.preferences.core.internal;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 import javax.inject.Inject;
 
 import org.eclipse.jface.preference.PreferenceManager;
 
 import at.nucle.e4.plugin.preferences.core.api.EPreferenceService;
+import at.nucle.e4.plugin.preferences.core.internal.registry.PreferenceRegistry;
 
 public class PreferenceService implements EPreferenceService {
 
-
 	@Inject
-	PreferenceRegistry registry;
+	PreferenceRegistry preferenceRegistry;
+
+	private PreferenceManager preferenceManager;
+
+	@PostConstruct
+	public void create() {
+		this.preferenceManager = new PreferenceManager();
+	}
 
 	@Override
 	public PreferenceManager getPreferenceManager() {
-		System.out.println("SERVICE CALLED");
-		return registry.getPreferenceManager();
+		return this.preferenceRegistry.createPages(this.preferenceManager);
 	}
 
+	@PreDestroy
+	public void destroy() {
+		if (this.preferenceManager != null) {
+			this.preferenceManager.removeAll();
+			this.preferenceManager = null;
+		}
+	}
 }

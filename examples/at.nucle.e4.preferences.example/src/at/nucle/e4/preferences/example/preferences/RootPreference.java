@@ -17,14 +17,14 @@ import org.eclipse.jface.preference.FieldEditorPreferencePage;
 
 import at.nucle.e4.preferences.example.injection.CustomInjection;
 
-public class RootPreference extends FieldEditorPreferencePage{
+public class RootPreference extends FieldEditorPreferencePage {
 
 	@Inject
 	CustomInjection injection;
 
 	@Override
 	protected void createFieldEditors() {
-		addField(new BooleanFieldEditor("sddd", "dsda", getFieldEditorParent()));
+		addField(new BooleanFieldEditor("truefalse", "dsda", getFieldEditorParent()));
 		injection.call();
 	}
 

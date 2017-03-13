@@ -3,14 +3,17 @@
   <children xsi:type="basic:TrimmedWindow" xmi:id="_c3AF0cjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.window.main" label="Empty E4 Application" width="500" height="400">
     <mainMenu xmi:id="_PM9GgAcpEeeL4JbQl8lZNQ" elementId="at.nucle.e4.preferences.example.menu.0">
       <children xsi:type="menu:HandledMenuItem" xmi:id="_QBwAgAcpEeeL4JbQl8lZNQ" elementId="at.nucle.e4.preferences.example.handledmenuitem.preferences" label="Preferences" command="_ZhrzwAcrEeeL4JbQl8lZNQ"/>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_IVdd0AgnEeeN7PSdI3L48w" elementId="at.nucle.e4.preferences.example.handledmenuitem.debug" label="Debug" command="_Jk9W0AgnEeeN7PSdI3L48w"/>
     </mainMenu>
   </children>
   <handlers xmi:id="_Y_qEwAcrEeeL4JbQl8lZNQ" elementId="at.nucle.e4.preferences.example.handler.preferences" contributionURI="bundleclass://at.nucle.e4.preferences.example/at.nucle.e4.preferences.example.handler.PreferenceHandler" command="_ZhrzwAcrEeeL4JbQl8lZNQ"/>
+  <handlers xmi:id="_K01DQAgnEeeN7PSdI3L48w" elementId="at.nucle.e4.preferences.example.handler.debug" contributionURI="bundleclass://at.nucle.e4.preferences.example/at.nucle.e4.preferences.example.handler.DebugHandler" command="_Jk9W0AgnEeeN7PSdI3L48w"/>
   <rootContext xmi:id="_c3AF2cjYEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
     <children xmi:id="_c3AF2sjYEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_c3AF28jYEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
   </rootContext>
   <commands xmi:id="_ZhrzwAcrEeeL4JbQl8lZNQ" elementId="at.nucle.e4.preferences.example.command.preference" commandName="Preferences"/>
+  <commands xmi:id="_Jk9W0AgnEeeN7PSdI3L48w" elementId="at.nucle.e4.preferences.example.command.debug" commandName="Debug"/>
   <addons xmi:id="_c3AF0sjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_c3AF08jYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_c3AF1MjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>

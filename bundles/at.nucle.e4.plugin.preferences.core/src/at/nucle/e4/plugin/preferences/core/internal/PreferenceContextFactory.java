@@ -11,6 +11,7 @@
 package at.nucle.e4.plugin.preferences.core.internal;
 
 
+
 import org.eclipse.e4.core.contexts.ContextFunction;
 import org.eclipse.e4.core.contexts.ContextInjectionFactory;
 import org.eclipse.e4.core.contexts.IEclipseContext;
@@ -24,9 +25,7 @@ public class PreferenceContextFactory extends ContextFunction {
     @Override
     public Object compute(final IEclipseContext context, final String contextKey) {
         final EPreferenceService preferenceService = ContextInjectionFactory.make(PreferenceService.class, context);
-        final MApplication application = context.get(MApplication.class);
-        final IEclipseContext applicationContext = application.getContext();
-        applicationContext.set(EPreferenceService.class, preferenceService);
+        context.get(MApplication.class).getContext().set(EPreferenceService.class, preferenceService);
         return preferenceService;
     }
 }
